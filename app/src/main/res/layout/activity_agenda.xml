@@ -16,17 +16,21 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <TextView
+    <EditText
         android:id="@+id/etNombre2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="@string/nombre" />
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="text" />
 
-    <TextView
+    <EditText
         android:id="@+id/etApellidos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="@string/apellidos" />
+        android:ems="10"
+        android:hint="@string/apellidos"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/etTelefono"
