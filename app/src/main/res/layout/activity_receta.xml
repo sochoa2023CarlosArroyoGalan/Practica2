@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:fontFamily="monospace"
-        android:text="Titulo del Producto"
+        android:text="Apotos tierra de panes"
         android:textColor="#FFC107"
         android:textSize="19sp"
         android:textStyle="bold"
@@ -52,19 +52,19 @@
         tools:layout_editor_absoluteY="64dp" />
 
     <TextView
-        android:id="@+id/descripcion"
+        android:id="@+id/tvDescripcion"
         android:layout_width="74dp"
         android:layout_height="19dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="4dp"
         android:text="Descripcion"
-        app:layout_constraintBottom_toTopOf="@+id/textdescripcion"
+        app:layout_constraintBottom_toTopOf="@+id/tvDescripciontexto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textdescripcion"
+        android:id="@+id/tvDescripciontexto"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -77,7 +77,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descripcion" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcion" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -87,21 +87,21 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <TextView
-        android:id="@+id/Ingredientes"
+        android:id="@+id/tvIngredientes"
         android:layout_width="78dp"
         android:layout_height="19dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
         android:text="Ingredientes"
-        app:layout_constraintBottom_toTopOf="@+id/textoingredientes"
+        app:layout_constraintBottom_toTopOf="@+id/tvIngredientestexto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.008"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <TextView
-        android:id="@+id/textoingredientes"
+        android:id="@+id/tvIngredientestexto"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -114,10 +114,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/Ingredientes" />
+        app:layout_constraintTop_toBottomOf="@+id/tvIngredientes" />
 
     <TextView
-        android:id="@+id/Receta"
+        android:id="@+id/tvReceta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -126,7 +126,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
-        android:id="@+id/textoreceta"
+        android:id="@+id/tvRecetatexto"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -139,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Receta"
+        app:layout_constraintTop_toBottomOf="@+id/tvReceta"
         app:layout_constraintVertical_bias="0.032" />
 
     <androidx.constraintlayout.widget.Guideline
