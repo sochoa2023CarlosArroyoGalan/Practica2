@@ -34,11 +34,13 @@ class AgendaActivity : AppCompatActivity() {
                 val newText = etNombre2.text.toString() + " " + etApellidos.text.toString()
                 tvTitulo.text = newText
             } else
-                Toast.makeText(this, "Introduce un apellido",
+            /**
+             * Toast se usa para mostrar un mensaje por pantalla
+             */
+            Toast.makeText(this, "Introduce un apellido",
                     Toast.LENGTH_LONG).show()
         }else
             Toast.makeText(this, "Introduce un nombre",
                 Toast.LENGTH_LONG).show()
-
     }
 }
